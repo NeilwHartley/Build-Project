@@ -8,6 +8,15 @@ const main = function () {
 		I found a site that lets you easilly generate mock api calls
 		https://www.mocky.io/
 
+		I just put this in the body section:
+
+		{
+			"text":"hello"
+		}
+
+		and clicked "generate my http response"
+		to get a link above in green.
+
 		I made one that will return "{"text":"hello"}"
 		http://www.mocky.io/v2/5dd3d97b2f00007100d4f7a0
 	*/
