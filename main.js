@@ -62,6 +62,7 @@ const main = function () {
 		jsonPromise.then((json) => {
 
 			//I expect this will be a json object {"text":"hello"}
+			console.log(fetch);
 			console.log(json); // expecting {"text":"hello"}
 			console.log(json.text); // expecting "hello"
 
