@@ -40,7 +40,7 @@ const main = function () {
 
 	//Fetch returns a promise
 	//You can go straight to the url in browser to see the response.
-	const apiCallPromise = fetch("http://www.mocky.io/v2/5dd3d97b2f00007100d4f7a0");
+	const apiCallPromise = fetch("http://www.mocky.io/v2/5df8d01a3000007e00889f5e");
 
 	//We interact with the promise by adding callbacks using "then" method on the returned promise
 	// The .then() method expects a callback function which expects one argument containing the resolved value of the promise.
@@ -62,7 +62,6 @@ const main = function () {
 		jsonPromise.then((json) => {
 
 			//I expect this will be a json object {"text":"hello"}
-			console.log(fetch);
 			console.log(json); // expecting {"text":"hello"}
 			console.log(json.text); // expecting "hello"
 
